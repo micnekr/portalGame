@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class follow : MonoBehaviour {
-    public Transform obj;
+    public Transform target;
 	void Update () {
-        transform.position = obj.position;
-        transform.rotation = obj.rotation;
+        transform.position = target.position;
+        transform.rotation = target.rotation;
 	}
 }
